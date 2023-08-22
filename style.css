@@ -9,6 +9,10 @@ body{
     margin: 0;
 }
 
+.navbar{
+    background-color: #F1F3FF;
+}
+
 .navbar-brand{
     margin-left: 0px; 
     margin-top: 0px; 
@@ -29,7 +33,7 @@ text-decoration: none;
 }
 
 #offcanvasResponsiveLabel{
-    color: #000;
+color: #000;
 
 /* Body/14/Bold */
 font-family: Helvetica;
@@ -252,6 +256,11 @@ line-height: 20px; /* 142.857% */
 
 
 @media only screen and (min-width:768px){
+    .navbar{
+        position: fixed;
+        width: 100%;
+        z-index: 99;
+    }
     .navbar-brand{
         margin-left: 100px; 
         margin-top: 12px; 
