@@ -48,8 +48,8 @@ text-decoration: none;
     width: 100%; height: auto; background-color: #F1F3FF;
 }
 
-
-.heroText{
+.heroContainer{
+    padding-top: 25px;
 }
 
 
@@ -267,6 +267,9 @@ line-height: 20px; /* 142.857% */
     }
     .hero{
         width: 100%; height: auto; background-color: #F1F3FF;
+    }
+    .heroContainer{
+        padding-top: 97px;
     }
     .heroText{
         margin-left: 100px;
