@@ -260,6 +260,7 @@ line-height: 20px; /* 142.857% */
         position: fixed;
         width: 100%;
         z-index: 99;
+        background-color: transparent;
     }
     .navbar-brand{
         margin-left: 100px; 

@@ -22,7 +22,7 @@
       </span>
     </a>
       
-        <button class="bg-transparent border-0 d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasResponsive" aria-controls="offcanvasResponsive"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <button id="openMenu" class="bg-transparent border-0 d-lg-none" type="button" data-bs-target="#offcanvasResponsive" aria-controls="offcanvasResponsive"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M3 18H21" stroke="#222222" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
             <path d="M3 12H21" stroke="#222222" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
             <path d="M3 6H21" stroke="#222222" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -36,10 +36,18 @@
   </div>
   <div class="offcanvas-body justify-content-sm-end me-sm-5">
     <div class="d-flex flex-column flex-sm-row align-items-start align-items-sm-center anchor">
-        <a href="#service" class="navLink">Our Services</a>
-        <a href="#whyUs" class="navLink">Why Us</a>
-        <a href="#testi" class="navLink">Testimonial</a>
-        <a href="#faq" class="navLink">FAQ</a>
+        <a href="#service" class="navLink">
+            <button type="button" class="border-0 p-0" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasResponsive" aria-label="Close">Our Services</button>
+        </a>
+        <a href="#whyUs" class="navLink">
+            <button type="button" class="border-0 p-0" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasResponsive" aria-label="Close">Why Us</button>
+        </a>
+        <a href="#testi" class="navLink">
+            <button type="button" class="border-0 p-0" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasResponsive" aria-label="Close">Testimony</button>
+        </a>
+        <a href="#faq" class="navLink">
+            <button type="button" class="border-0 p-0" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasResponsive" aria-label="Close">FAQ</button>
+        </a>
         <a style="width: fit-content; height: auto; background-color: #5CB85F; margin-right: 40px;" type="button" class="btn text-white">Register</a>
     </div>
   </div>
@@ -414,4 +422,5 @@
 
     </body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
 </html>
