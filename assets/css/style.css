@@ -226,6 +226,10 @@ line-height: 20px; /* 142.857% */
     text-decoration: none;
     }
 
+    #testi{
+        margin-top: 20px;
+    }
+
     
 #getStartTitle{
     color: var(--neutral-01, #FFF);
@@ -398,6 +402,10 @@ font-size: 14px;
 font-style: normal;
 font-weight: 300;
 line-height: 20px; /* 142.857% */
+}
+
+#testi{
+    margin-top: 100px;
 }
 
 .carouselBody{
